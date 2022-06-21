@@ -1,0 +1,28 @@
+name: eight_queens_game
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_svg: ^0.22.0
+  google_fonts: ^2.1.0
+  auto_size_text: ^2.1.0
+  get: ^4.5.1
+  intl: ^0.17.0-nullsafety.2
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - img/queen.svg
